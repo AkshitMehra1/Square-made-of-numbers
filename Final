@@ -1,0 +1,12 @@
+n=int(input())
+for i in range(0,n):
+    for j in range(0,n):
+          for k in range (0, n//2 +1):
+                if i == 0+k or j==0+k or i==n-1-k or j==n-1-k:
+                    print(n-k, end="")
+                    break
+#             elif i==1 or j==1 or i==n-2 or j==n-2:
+#                 print(n-1, end="")
+#             else:
+#                 print(" ", end="")        
+    print('\n')
